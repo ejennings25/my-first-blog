@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ejenningssdev220:
+    image: ejenningssdev220
+    build:
+      context: .
+      dockerfile: ./Dockerfile
